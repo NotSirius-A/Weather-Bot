@@ -1,0 +1,27 @@
+[{
+		"adress": "person@example.com",
+		"coord": [
+			22.10,
+			35.50
+		],
+		"forecasts": [
+			0,
+			12,
+			20
+		]
+	},
+	{
+		"adress": "person@example.com",
+		"coord": [
+			12.10,
+			45.50
+		],
+		"forecasts": [
+			0,
+			10,
+			15,
+			20,
+			25
+		]
+	}
+]
