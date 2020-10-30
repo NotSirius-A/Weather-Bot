@@ -49,9 +49,9 @@ def main():
         message = make_message(user, data)
 
         message['From'] = sender_email
-        message['To'] = user['adress']
+        message['To'] = user['address']
 
-        send_email(sender_email, user['adress'], message, time.ctime(data['current']['dt']))
+        send_email(sender_email, user['address'], message, time.ctime(data['current']['dt']))
 
     exit()
 
