@@ -13,7 +13,7 @@ I've used raspberryPi 4B with raspbian to run this software.
 4. Register an Open Weather API account and get the API key.
 5. Open the weather_bot.py file and modify the variables in the Config section, based on your credentials and needs.
 6. Setup a Linux enviroment with python3 installed
-7. First type "chmod 701 /PATH/weather_bot.py" to make the script executable (you can change the number), then edit the crontab with "crontab -e" and set the time at which the script is to be run (look up the tutorial if you don't know how to do that).
+7. Firstly use the "chmod 701 /PATH/weather_bot.py" to make the script executable (you can change the number), then edit the crontab with "crontab -e" and set the time at which the script is to be run (look up the tutorial if you don't know how to do that).
 8. Everything should be up and running now.
 
 
