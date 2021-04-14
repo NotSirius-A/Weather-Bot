@@ -2,7 +2,7 @@
 Python app that sends e-mails with weather forecasts. It's designed to run daily on Linux systems using cronjob
 
 # Disclaimer
-This software is not meant for beginners, some code literacy and tech skills are required.
+This software is not meant for beginners, as some code literacy and tech skills are required.
 I've used raspberryPi 4B with raspbian to run this software.
 
 # How to use it
