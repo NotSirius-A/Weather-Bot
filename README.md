@@ -18,7 +18,7 @@ I've used raspberryPi 4B with raspbian to run this software.
 
 
 # Data
-The reciever_list.json file contains a list of all recipients. Each recipient is consists of a dictionary:
+The reciever_list.json file contains a list of all recipients. Each recipient consists of a dictionary:
 1. "address": "email address"
 2. "coords": two element list with coordinates [latitude, longtitude]
 3. "forecasts": n-element list in which every number corresponds to how much in the future the forecasts should be. For example [0, 10, 20] will produce 3 data sets. 0 is for current weather, 10 will return a forecast for T+10 hours, 20 will return a forecast for T+20 hours. Each additional number put in here will result in an email containing additional section.
